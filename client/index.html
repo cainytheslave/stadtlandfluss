@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="/css/main">
+	<title>Client</title>
+</head>
+<body>
+	<h1>Stadt, Land, Fluss</h1>
+
+	<div id="controll">
+		<div>
+			<input type="text" id="txtGameTitle" placeholder="Title of Game">
+			<label for="txtGameRounds">Rounds:</label>
+			<input type="number" id="txtGameRounds" value="5" size="2" min="1" max="15" name="txtGameRounds">
+			<label for="txtGamePlayer">Player:</label>
+			<input type="number" id="txtGamePlayer" value="2" size="2" min="2" max="30" name="txtGamePlayer">
+			<button id="btnCreate">Create Game</button>
+		</div>
+	</div>
+
+	<div id="gameTable">
+		<table id="gameList">
+			<tr>
+				<th style="width:50%">Game Title</th>
+				<th style="width:30%">Actions</th>
+				<th style="width:10%">Rounds</th>
+				<th style="width:10%">Players</th>
+			</tr>
+		</table>
+	</div>
+
+	<div id="game">
+		empty
+	</div>
+
+	<script src="/js/main"></script>
+</body>
+</html>

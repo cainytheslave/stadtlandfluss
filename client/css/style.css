@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+	margin: 0;
+	padding:  0;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:  column;
+}
+table{
+	text-align: center;
+	width:  100%;
+}
+td, th{
+	text-align: center;
+	padding:  5px 10px;
+	width:  300px;
+}
+td{
+	border-bottom:  1px solid #333;
+}
+th{
+	border-bottom:  3px solid #333;
+}
+
+button, input{
+	margin:  0 5px;
+	padding:  3px;
+}
+
+button.action{
+	width:  55px;
+}
+
+div#gameTable, div#controll, div#game{
+	width:  80%;
+	border:  2px solid black;
+	padding:  20px;
+	margin:  20px 0;
+}
